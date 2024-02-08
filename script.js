@@ -1,1 +1,6 @@
-//your JS code here. If required.
+function functionName() {
+	let ans=arguments.callee.name;
+	console.log(ans);
+}
+
+functionName();
